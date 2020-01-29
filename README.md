@@ -1,4 +1,6 @@
-# DOM-Pig-Game Credits:Complete Javascript Course by Jonas Schmmedtman
+# DOM-Pig-Game 
+Credits:Complete Javascript Course by Jonas Schmmedtman
+
  A Game played between 2 Players. Each Player has a Global Score and a Current Score. Whichever Player reaches the GLobal score of 50 first wins. Global Score is increased by adding the total Current score of every turn. Total current score is achieved by rolling the dice untill a 1 is rolled or the player chooses to Hold.
 
 /****************
