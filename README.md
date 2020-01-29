@@ -1,4 +1,4 @@
-# DOM-Pig-Game
+# DOM-Pig-Game Credits:Complete Javascript Course by Jonas Schmmedtman
  A Game played between 2 Players. Each Player has a Global Score and a Current Score. Whichever Player reaches the GLobal score of 50 first wins. Global Score is increased by adding the total Current score of every turn. Total current score is achieved by rolling the dice untill a 1 is rolled or the player chooses to Hold.
 
 /****************
@@ -7,7 +7,6 @@ Functions , Methods, Properties , Concepts Used
 1. document.querySelector('#id')     // this querySelector Method of the document Object selects the element of the DOM having the provided id.
 2. document.querySelector('#id').textContent      // this textContent Property of the element retrieved is used to read the text present in the element.
 3. document.querySelector('#id').innerHtml     // this innerHTML Property is used to read html present in this element as a string.
-
 ** textContent and innerHTML can not only be used to read but to set the plain text or html inside the element respectively.
 for example: document.querySelector('#current-0').textContent = dice;
 document.querySelector('#current-0').innerHtml = '<em>' + dice + '<em>';
@@ -49,6 +48,7 @@ document.querySelector('.class').classList.toggle('active');
 
 /***********
 Note: Code has comments to understand the flow.
+
 Note: I have not created any Initialization function init as shown in the course as I found a flaw in that implementation. Rather I added an event listener for New Game Click on top of my code for the entire game coz technically the Roll Dice should not be working when the game is just opened and donot have default 0 scores. The idea just appears absurd wihout having a new game. So the entire logic of the game works if u start a new game.
 
 ************/ 
